@@ -1,0 +1,190 @@
+body{
+  background:black;
+  }
+  @media (max-width: 780px) {
+       img{
+          width: 100%;
+      }
+  }
+  .section{
+   margin: 0 0 100px 0 ;
+    }
+    .logo{
+      transition: 0.5s;
+      color: #9f7928!important;
+
+    }
+    .logo:hover{
+
+    }
+    .btn-gold:hover{
+      background-image: linear-gradient(to left top, #ffe5a1, #f3d388, #e7c06f, #dbae56, #cf9c3d, #cf9a39, #cf9836, #cf9632, #dba443, #e7b153, #f3bf64, #ffcd74);}
+      .btn-gold{
+        background-image: linear-gradient(to right bottom, #ffe5a1, #f3d388, #e7c06f, #dbae56, #cf9c3d, #cf9a39, #cf9836, #cf9632, #dba443, #e7b153, #f3bf64, #ffcd74);
+      cursor: pointer;
+      
+      }
+/* Nav */
+.navbar
+{
+  background-color: #050607;
+  opacity: 0.8;
+    
+}
+
+  .nav-link-or{
+    color: rgb(216, 216, 216)!important;;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+  }
+  .nav-link-or:hover{
+    color: white!important;
+  }
+.gg-sun{
+transition: 0.5s;
+}
+.gg-sun:hover{
+  color: #ad7c08;
+}
+/* ======================================= */
+/* home */
+
+.item1{
+  margin-top: 200px;
+  
+}
+.item1 p{
+color: white;
+margin-top: 50px;
+line-height: 2.5;
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+font-weight: normal;
+}
+.item1 .btn1{
+  background: none;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right, gold, transparent);
+  color: gold;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+display: inline-block;
+}
+.btn1:hover{
+  border-image-source: linear-gradient(to right, rgb(0, 0, 0), gold);
+  color: gold;
+}
+.btn2{
+  width: 180px;
+  height: 54px;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  border-radius:10px;
+font-weight: 500;
+font-size: large;
+}
+.item2 img{
+  margin: 20% 0;
+  padding: 100;
+  max-width: 100%;
+}
+.item1 .btn-gold{
+  width: 35%;
+  border-radius: 10px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ==================================================*/
+/* work */
+.recent .row img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+/* ================================================== */
+/* contribution */
+
+.contribution-items .img2{
+  max-width: 100%;
+}
+.contribution-items .img3{
+cursor: pointer;
+}
+
+.contribution-items{
+ background-color: #040404;
+ 
+}
+.contribution-desc{
+padding:100px  ;
+color: white;
+font-family:'Montserrat', sans-serif;
+
+}
+.par{
+  margin: 5px 0;
+  line-height: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contribution .btn-gold,.cont2 .btn-gold{
+  padding: 15px;
+  border-radius: 10px;
+  width: 38%;
+  transition: 0.5s;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+}
+/* =========================================================================== */
+
+/* cont2 */
+.cont2 .img1{
+  max-width: 100%;
+  margin-top: 50px;
+}
+.cont2 .row{
+background-color: #090c11;}
+
+/* =========================================================================== */
+/* footer */
+.footer .row p{
+  color: white;
+  font-size: 30px;
+  font-family:'Montserrat', sans-serif;
+}
+.footer .col-12{
+  text-align: center;
+}
+.footer .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  margin: 20px 0;
+  text-transform:uppercase;
+}
+.footer .col-md-2 img{
+  cursor: pointer;
+}
